@@ -5,7 +5,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;         
-  background: #9fcfe4;     
+  background: rgb(255, 255, 255);  
+  background-image:linear-gradient(rgba(147, 49, 154, 0.2), rgba(41, 102, 183, 0.2)), url(darkly-atmospheric-retail-environment-rendering.jpg) ; 
+  background-size: cover;  
+  background-position: center;
+  
 }
 
 
@@ -17,10 +21,10 @@ body {
 
 
 .card {
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   width: 300px;
   border-radius: 12px;       
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 149, 249, 0.719);
   overflow: hidden;          
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -28,7 +32,7 @@ body {
 
 .card:hover {
   transform: translateY(-8px); 
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 16px rgba(56, 208, 10, 0.674);
 }
 
 
@@ -48,17 +52,19 @@ body {
 .card-content h3 {
   margin: 0;
   font-size: 18px;
+  color: #ffffff;
 }
 
 
 .card-content p {
   font-size: 14px;
-  color: #000000;
+  color: #ffffff;
   margin: 10px 0;
 }
 
 
 .card-content button {
+  margin-left: 35%;
   background: #007BFF;
   color: white;
   border: none;
